@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;600&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    background-color: black;
+    color: aliceblue;
+    border: solid 5px;
+    border-radius: 70px;
+}
+
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: aqua;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+ul{
+    /* list-style-type: none */
+
+    /* list-style-image: url(./images/icon.png); */
+
+    list-style: circle inside url(./images/icon.png);
+    background-color: bisque;
+}
+
+ul li{
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+ol{
+    /* list-style-type: none */
+
+    /* list-style-image: url(./images/icon.png); */
+
+    list-style: circle inside url(./images/icon.png);
+    background-color: paleturquoise;
+}
+
+ol li{
+    border: 1px solid black;
+    border-radius: 10px;
+}
